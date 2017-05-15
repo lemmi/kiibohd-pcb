@@ -7,7 +7,7 @@
       (title_block
         (title ICED-L)
         (company "Input Club")
-        (rev "Rev 1.2a")
+        (rev "Rev 3.4a")
         (date 2016-05-14)
         (source ICEDLeft.sch)
         (comment (number 1) (value ""))
@@ -18,7 +18,7 @@
       (title_block
         (title ICED-L)
         (company "Input Club")
-        (rev "Rev 1.2a")
+        (rev "Rev 3.4a")
         (date 2016-05-14)
         (source mcu.sch)
         (comment (number 1) (value ""))
@@ -29,7 +29,7 @@
       (title_block
         (title ICED-L)
         (company "Input Club")
-        (rev "Rev 1.2a")
+        (rev "Rev 3.4a")
         (date 2016-05-14)
         (source ledmatrix.sch)
         (comment (number 1) (value ""))

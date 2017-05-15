@@ -6,10 +6,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "ICED-L"
-Date "2016-07-17"
-Rev "Rev 1.2b"
-Comp "Input Club"
+Title "ICEH-L"
+Date "2017-05-14"
+Rev "Rev 3.4a"
+Comp "ErgoHack"
 Comment1 ""
 Comment2 ""
 Comment3 ""
