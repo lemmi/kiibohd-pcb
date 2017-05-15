@@ -14,10 +14,10 @@
 
   (page A4)
   (title_block
-    (title ICED-L)
-    (date 2016-07-17)
-    (rev 1.2b)
-    (company "Input Club")
+    (title ICEH-L)
+    (date 2017-05-14)
+    (rev 3.4a)
+    (company "ErgoHack")
   )
 
   (layers
@@ -7506,7 +7506,7 @@
   (gr_line (start 106.5276 30.5308) (end 115.4684 30.5308) (angle 90) (layer Edge.Cuts) (width 0.127))
   (gr_line (start 106.5276 29.5402) (end 106.5276 25.781) (angle 90) (layer Edge.Cuts) (width 0.127))
   (gr_line (start 115.4684 25.781) (end 115.4684 29.5402) (angle 90) (layer Edge.Cuts) (width 0.127))
-  (gr_text "ICED-L Rev 1.2b Batch __" (at 83.947 35.179) (layer B.SilkS)
+  (gr_text "ICEH-L Rev 3.4a Batch __" (at 83.947 35.179) (layer B.SilkS)
     (effects (font (size 2 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text AUD (at 113.792 137.414 245) (layer B.SilkS)
