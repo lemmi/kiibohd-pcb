@@ -458,7 +458,7 @@
   )
 
   (module prettylib:LQFP64 (layer Back) (tedit 55346CA3) (tstamp 55370C6C)
-    (at 144.78 119.761 270)
+    (at 113 153 270)
     (descr "Quad Flat Package w/ Pins")
     (tags "QFP TQFP LQFP")
     (path /549878F0/54037CD8)
@@ -694,7 +694,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 55370EE6)
-    (at 138.811 125.984 180)
+    (at 107.031 159.223 180)
     (path /549878F0/5530CD63)
     (attr smd)
     (fp_text reference R7 (at 0 1.524 180) (layer B.SilkS)
@@ -734,7 +734,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 55370C8B)
-    (at 154.432 116.332)
+    (at 122.652 149.571)
     (path /549878F0/4E4186C6)
     (attr smd)
     (fp_text reference R11 (at 0 1.524) (layer B.SilkS)
@@ -754,7 +754,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 55370EF1)
-    (at 136.525 125.984 180)
+    (at 104.745 159.223 180)
     (path /549878F0/5530D006)
     (attr smd)
     (fp_text reference R6 (at 0 1.524 180) (layer B.SilkS)
@@ -974,7 +974,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 549A984C)
-    (at 147.955 129.794 180)
+    (at 116.2 162.5 180)
     (path /549878F0/4E4181C7)
     (attr smd)
     (fp_text reference C5 (at 0 1.524 180) (layer B.SilkS)
@@ -1014,7 +1014,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 549A62C9)
-    (at 152.654 122.936 180)
+    (at 120.874 156.175 180)
     (path /549878F0/4F22C606)
     (attr smd)
     (fp_text reference C7 (at 0 1.524 180) (layer B.SilkS)
@@ -1034,7 +1034,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 549A62BF)
-    (at 141.224 127.889 270)
+    (at 109.444 161.128 270)
     (path /549878F0/54038768)
     (attr smd)
     (fp_text reference C3 (at 0 1.524 270) (layer B.SilkS)
@@ -1074,7 +1074,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 549A62AB)
-    (at 144.653 110.236 180)
+    (at 112.873 143.475 180)
     (path /549878F0/539C9F35)
     (attr smd)
     (fp_text reference R2 (at 0 1.524 180) (layer B.SilkS)
@@ -1134,7 +1134,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 54F1B64E)
-    (at 141.859 111.887 270)
+    (at 110.079 145.126 270)
     (path /549878F0/4F22C5A2)
     (attr smd)
     (fp_text reference C4 (at 0 1.524 270) (layer B.SilkS)
@@ -1154,7 +1154,7 @@
   )
 
   (module prettylib:SMD-1005 (layer Back) (tedit 54FC8C89) (tstamp 54F1AF05)
-    (at 143.383 110.236 180)
+    (at 111.603 143.475 180)
     (path /549878F0/539C9F3B)
     (attr smd)
     (fp_text reference R1 (at 0 1.524 180) (layer B.SilkS)
@@ -1174,7 +1174,7 @@
   )
 
   (module prettylib:LED-0603 (layer Back) (tedit 5503CBDD) (tstamp 54F1B6E1)
-    (at 154.432 120.396 90)
+    (at 122.652 153.635 90)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /549878F0/4E418482)
@@ -1199,7 +1199,7 @@
   )
 
   (module prettylib:NX3225SA (layer Back) (tedit 55370C27) (tstamp 549A62E9)
-    (at 152.4 127.889 270)
+    (at 120.62 161.128 270)
     (descr NX3225SA)
     (tags NX3225SA)
     (path /549878F0/549A5A7F)
