@@ -174,9 +174,9 @@
   (net 66 "Net-(D18-Pad1)")
   (net 67 "Net-(D19-Pad1)")
   (net 68 "Net-(D20-Pad1)")
-  (net 69 "Net-(D21-Pad1)")
-  (net 70 "Net-(D22-Pad1)")
-  (net 71 "Net-(D23-Pad1)")
+  (net 69 "Net-(D81-Pad1)")
+  (net 70 "Net-(D82-Pad1)")
+  (net 71 "Net-(D21-Pad1)")
   (net 72 "Net-(D24-Pad1)")
   (net 73 "Net-(D25-Pad1)")
   (net 74 "Net-(D26-Pad1)")
@@ -350,9 +350,9 @@
     (add_net "Net-(D19-Pad1)")
     (add_net "Net-(D2-Pad1)")
     (add_net "Net-(D20-Pad1)")
+    (add_net "Net-(D81-Pad1)")
+    (add_net "Net-(D82-Pad1)")
     (add_net "Net-(D21-Pad1)")
-    (add_net "Net-(D22-Pad1)")
-    (add_net "Net-(D23-Pad1)")
     (add_net "Net-(D24-Pad1)")
     (add_net "Net-(D25-Pad1)")
     (add_net "Net-(D26-Pad1)")
@@ -5058,7 +5058,7 @@
     (at 160.15609 137.64268 285)
     (path /54B2C0DD/55932019)
     (attr smd)
-    (fp_text reference D59 (at 0 -1.5 285) (layer B.SilkS)
+    (fp_text reference D91 (at 0 -1.5 285) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value LED (at 0 2.413 285) (layer F.SilkS) hide
@@ -5106,7 +5106,7 @@
     (at 93.71645 136.78936 355)
     (path /54B2C0DD/559321E6)
     (attr smd)
-    (fp_text reference D60 (at 0 -1.5 355) (layer B.SilkS)
+    (fp_text reference D92 (at 0 -1.5 355) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value LED (at 0 2.413 355) (layer F.SilkS) hide
@@ -5154,7 +5154,7 @@
     (at 149.9952 97.672 270)
     (path /54B2C0DD/559323B2)
     (attr smd)
-    (fp_text reference D61 (at 0 -1.5 270) (layer B.SilkS)
+    (fp_text reference D59 (at 0 -1.5 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
     )
     (fp_text value LED (at 0 2.413 270) (layer F.SilkS) hide
@@ -5220,7 +5220,7 @@
     (tags DIODE)
     (path /549A1E63)
     (attr smd)
-    (fp_text reference D21 (at 0 3.81 325) (layer B.SilkS)
+    (fp_text reference D81 (at 0 3.81 325) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value DIODE (at 2.031999 0 325) (layer B.SilkS) hide
@@ -5236,7 +5236,7 @@
     (pad 2 smd rect (at 0 1.7526 195) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
       (net 100 /Row4))
     (pad 1 smd rect (at 0 -1.74752 195) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
-      (net 69 "Net-(D21-Pad1)"))
+      (net 69 "Net-(D81-Pad1)"))
   )
 
   (module prettylib:SOT123-DIODE (layer Back) (tedit 55C2C69D) (tstamp 549A626C)
@@ -5595,7 +5595,7 @@
     (tags DIODE)
     (path /549A1E6F)
     (attr smd)
-    (fp_text reference D22 (at 0 3.81 445) (layer B.SilkS)
+    (fp_text reference D82 (at 0 3.81 445) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value DIODE (at 2.031999 0 445) (layer B.SilkS) hide
@@ -5611,7 +5611,7 @@
     (pad 2 smd rect (at 0 1.7526 265) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
       (net 100 /Row4))
     (pad 1 smd rect (at 0 -1.74752 265) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
-      (net 70 "Net-(D22-Pad1)"))
+      (net 70 "Net-(D82-Pad1)"))
   )
 
   (module prettylib:SOT123-DIODE (layer Back) (tedit 55C2C69D) (tstamp 549A61A9)
@@ -6120,7 +6120,7 @@
     (tags DIODE)
     (path /549A1E7B)
     (attr smd)
-    (fp_text reference D23 (at 0 3.81 360) (layer B.SilkS)
+    (fp_text reference D21 (at 0 3.81 360) (layer B.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
     )
     (fp_text value DIODE (at 2.032 0 360) (layer B.SilkS) hide
@@ -6136,7 +6136,7 @@
     (pad 2 smd rect (at 0 1.7526 180) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
       (net 100 /Row4))
     (pad 1 smd rect (at 0 -1.74752 180) (size 1.00076 0.8509) (layers Back B.Paste B.Mask)
-      (net 71 "Net-(D23-Pad1)"))
+      (net 71 "Net-(D21-Pad1)"))
   )
 
   (module prettylib:SOT123-DIODE (layer Back) (tedit 55C2C69D) (tstamp 54F1A9CD)
@@ -6169,7 +6169,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /549A1E69)
-    (fp_text reference S22 (at 0 3.048 175) (layer B.SilkS)
+    (fp_text reference S82 (at 0 3.048 175) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value SW (at -3.5 9 175) (layer B.SilkS) hide
@@ -6192,7 +6192,7 @@
     (pad 1 thru_hole oval (at -3.405 -3.27 145.95) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.Mask F.SilkS)
       (net 121 /Col2))
     (pad 2 thru_hole oval (at 2.52 -4.79 171.1) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.Mask F.SilkS)
-      (net 70 "Net-(D22-Pad1)"))
+      (net 70 "Net-(D82-Pad1)"))
   )
 
   (module prettylib:MXALPS (layer Front) (tedit 55C2C681) (tstamp 4FFD3627)
@@ -6944,7 +6944,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /549A1E5D)
-    (fp_text reference S21 (at 0 3.048 105) (layer B.SilkS)
+    (fp_text reference S41 (at 0 3.048 105) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value SW (at -3.5 9 105) (layer B.SilkS) hide
@@ -6967,7 +6967,7 @@
     (pad 1 thru_hole oval (at -3.405 -3.27 75.95) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.Mask F.SilkS)
       (net 120 /Col1))
     (pad 2 thru_hole oval (at 2.52 -4.79 101.1) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.Mask F.SilkS)
-      (net 69 "Net-(D21-Pad1)"))
+      (net 69 "Net-(D81-Pad1)"))
   )
 
   (module prettylib:MXALPS (layer Front) (tedit 55C2C681) (tstamp 4EAB1651)
@@ -7099,7 +7099,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /549A1E75)
-    (fp_text reference S23 (at 0 3.048 90) (layer B.SilkS)
+    (fp_text reference S21 (at 0 3.048 90) (layer B.SilkS)
       (effects (font (thickness 0.3048)) (justify mirror))
     )
     (fp_text value SW (at -3.5 9 90) (layer B.SilkS) hide
@@ -7122,7 +7122,7 @@
     (pad 1 thru_hole oval (at -3.405 -3.27 60.95) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.Mask F.SilkS)
       (net 113 /Col3))
     (pad 2 thru_hole oval (at 2.52 -4.79 86.1) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.Mask F.SilkS)
-      (net 71 "Net-(D23-Pad1)"))
+      (net 71 "Net-(D21-Pad1)"))
   )
 
   (module prettylib:MXALPS (layer Front) (tedit 55C2C681) (tstamp 4FFD3638)
