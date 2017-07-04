@@ -326,23 +326,23 @@ $EndComp
 $Comp
 L SW S15
 U 1 1 549A1E15
-P 3300 2300
-F 0 "S15" H 3300 2400 60  0000 C CNN
-F 1 "SW" H 3300 2250 60  0000 C CNN
-F 2 "prettylib:MXALPS" H 3300 2300 60  0001 C CNN
-F 3 "~" H 3300 2300 60  0000 C CNN
-	1    3300 2300
+P 2600 2300
+F 0 "S15" H 2600 2400 60  0000 C CNN
+F 1 "SW" H 2600 2250 60  0000 C CNN
+F 2 "prettylib:MXALPS" H 2600 2300 60  0001 C CNN
+F 3 "~" H 2600 2300 60  0000 C CNN
+	1    2600 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODE D15
 U 1 1 549A1E1B
-P 3500 2500
-F 0 "D15" H 3500 2600 40  0000 C CNN
-F 1 "DIODE" H 3500 2400 40  0000 C CNN
-F 2 "prettylib:SOT123-DIODE" H 3500 2500 60  0001 C CNN
-F 3 "~" H 3500 2500 60  0000 C CNN
-	1    3500 2500
+P 2800 2500
+F 0 "D15" H 2800 2600 40  0000 C CNN
+F 1 "DIODE" H 2800 2400 40  0000 C CNN
+F 2 "prettylib:SOT123-DIODE" H 2800 2500 60  0001 C CNN
+F 3 "~" H 2800 2500 60  0000 C CNN
+	1    2800 2500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -872,11 +872,13 @@ Wire Wire Line
 Wire Wire Line
 	2800 2000 8150 2000
 Wire Wire Line
-	3500 2700 8150 2700
+	2800 2700 8150 2700
 Wire Wire Line
-	1400 3400 7450 3400
+	2800 3400 8150 3400
 Wire Wire Line
-	1400 4100 7450 4100
+	2800 4100 8150 4100
+Wire Wire Line
+	2800 4800 8150 4800
 Connection ~ 3500 1300
 Connection ~ 4200 1300
 Connection ~ 4900 1300
@@ -889,6 +891,7 @@ Connection ~ 5600 2000
 Connection ~ 4900 2000
 Connection ~ 4200 2000
 Connection ~ 3500 2000
+Connection ~ 3500 2700
 Connection ~ 4200 2700
 Connection ~ 4900 2700
 Connection ~ 5600 2700
@@ -900,10 +903,6 @@ Connection ~ 5600 3400
 Connection ~ 4900 3400
 Connection ~ 4200 3400
 Connection ~ 3500 3400
-Connection ~ 2800 3400
-Connection ~ 2100 3400
-Connection ~ 2100 4100
-Connection ~ 2800 4100
 Connection ~ 3500 4100
 Connection ~ 4200 4100
 Connection ~ 4900 4100
@@ -915,6 +914,7 @@ Connection ~ 1700 3000
 Connection ~ 1700 3700
 Connection ~ 3100 1600
 Connection ~ 3100 2300
+Connection ~ 2400 2300
 Connection ~ 2400 3000
 Connection ~ 2400 3700
 Connection ~ 3100 3700
@@ -945,28 +945,26 @@ Text Label 8150 2000 0    60   ~ 0
 Row2
 Text Label 8150 2700 0    60   ~ 0
 Row3
-Text Label 7450 3400 0    60   ~ 0
+Text Label 8150 3400 0    60   ~ 0
 Row4
-Text Label 7450 4100 0    60   ~ 0
+Text Label 8150 4100 0    60   ~ 0
 Row5
-Text Label 1000 4650 0    60   ~ 0
-Col1
-Text Label 1700 4650 0    60   ~ 0
-Col2
+Text Label 8150 4800 0    60   ~ 0
+Row6
 Text Label 2400 4650 0    60   ~ 0
-Col3
+Col1
 Text Label 3100 4650 0    60   ~ 0
-Col4
+Col2
 Text Label 3800 4650 0    60   ~ 0
-Col5
+Col3
 Text Label 4500 4650 0    60   ~ 0
-Col6
+Col4
 Text Label 5200 4650 0    60   ~ 0
-Col7
+Col5
 Text Label 5900 4650 0    60   ~ 0
-Col8
+Col6
 Text Label 6600 4650 0    60   ~ 0
-Col9
+Col7
 Text Label 6550 8150 2    60   ~ 0
 GND
 Text Label 6550 6350 2    60   ~ 0
@@ -983,23 +981,21 @@ Text Label 6550 6850 2    60   ~ 0
 Col6
 Text Label 6550 6950 2    60   ~ 0
 Col7
-Text Label 6550 7050 2    60   ~ 0
-Col8
 Text Label 6550 7150 2    60   ~ 0
-Col9
-Text Label 6550 7250 2    60   ~ 0
 Row1
-Text Label 6550 7350 2    60   ~ 0
+Text Label 6550 7250 2    60   ~ 0
 Row2
-Text Label 6550 7450 2    60   ~ 0
+Text Label 6550 7350 2    60   ~ 0
 Row3
-Text Label 6550 7550 2    60   ~ 0
+Text Label 6550 7450 2    60   ~ 0
 Row4
+Text Label 6550 7550 2    60   ~ 0
+Row5
+Text Label 6550 7650 2    60   ~ 0
+Row6
 Connection ~ 6600 3000
 Wire Wire Line
 	1700 3000 1700 4650
-Text Label 6550 7650 2    60   ~ 0
-Row5
 $Sheet
 S 6550 6000 1150 2200
 U 549878F0
@@ -1052,6 +1048,7 @@ NoConn ~ 6550 7850
 NoConn ~ 6550 6250
 NoConn ~ 6550 6150
 NoConn ~ 6550 6050
+NoConn ~ 6550 7050
 Wire Wire Line
 	7700 6050 8650 6050
 Wire Wire Line
